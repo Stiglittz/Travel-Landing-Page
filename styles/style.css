@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.homeMain {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/assets/Hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainHeader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px calc((100vw - 1080px) / 2);
+}
+
+.mainHeader-logo {
+  display: flex;
+}
+
+.mainNav {
+  display: flex;
+}
+
+.mainNav-link {
+  color: white;
+  font-size: 18px;
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+.mainNav-link:last-child {
+  margin-right: 0;
+}
+
+.homeMain-content {
+  align-self: center;
+  padding-right: calc((100vw - 1080px) / 2);
+  padding-left: calc((100vw - 1080px) / 2);
+}
+
+.homeMain-content .title {
+  max-width: 620px;
+}
+
+.homeMain-content .text {
+  max-width: 550px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 35px;
+  color: #102746;
+}
+
+.title--main {
+  font-size: 50px;
+  color: white;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.text--white {
+  color: white;
+}
